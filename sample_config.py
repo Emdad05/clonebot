@@ -15,10 +15,10 @@ class Config(object):
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
     # Get from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", ""))
+    APP_ID = int(os.environ.get("APP_ID", "22238248"))
 
     # Get from my.telegram.org
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "109ebc633d7941e4a329f83576ad6de0")
 
     # Generate a user session string
     TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "")
